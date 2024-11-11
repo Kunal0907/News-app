@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-text-color: #343a40;
+  --secondary-text-color: #495057;
+}
+body {
+  font-family: "Faculty Glyphic";
+  color: var(--primary-text-color);
+  background-color: #dee2e6;
+}
+p {
+  color: var(--secondary-text-color);
+  font-family: "Roboto Mono";
+}
+.top-nav {
+  background-color: #adb5bd;
+}
+.menus {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-link {
+  color: var(--primary-text-color) !important;
+}
+.nav-link:hover {
+  color: var(--secondary-text-color) !important;
+}
+.nav-link:active {
+  color: #fb5607 !important;
+}
+.card {
+  box-shadow: 0 0 10px #343a40;
+  min-height: 400px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.card:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 10px #adb5bd;
+  transform: translateY(-10px);
+}
+
+.card-body > h4,
+h6 {
+  color: var(--primary-text-color);
+}
